@@ -1,0 +1,16 @@
+body { font-family: system-ui, sans-serif; background: #f4f5f7; margin: 0; color: #222; }
+main { max-width: 860px; margin: 0 auto; padding: 1rem; }
+.card { background: #fff; padding: 1rem; border-radius: 8px; display: flex; flex-direction: column; gap: .6rem; flex: 1; box-shadow: 0 1px 3px #0002; }
+.card h2 { margin: 0; font-size: 1.1rem; }
+label { display: flex; flex-direction: column; font-size: .85rem; gap: .2rem; }
+input { padding: .4rem; font-size: 1rem; }
+button { padding: .5rem .8rem; font-size: 1rem; cursor: pointer; }
+.forms { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .6rem; }
+.summary div { background: #fff; padding: .6rem; border-radius: 8px; display: flex; flex-direction: column; box-shadow: 0 1px 3px #0002; }
+.summary span { font-size: .75rem; color: #666; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; }
+th, td { padding: .5rem; text-align: left; border-bottom: 1px solid #eee; }
+.link { background: none; border: none; color: #c00; padding: 0; font-size: .85rem; }
+.note { font-size: .8rem; color: #666; }
+.danger { color: #c00; }
